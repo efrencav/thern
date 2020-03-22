@@ -3,7 +3,7 @@ import SEO from '../components/seo';
 import Layout from '../containers/layout/layout'
 import Hero from '../containers/home-slider/hero'
 import Story from '../containers/home-slider/story'
-import ProjectSection from '../containers/home-slider/project'
+// import ProjectSection from '../containers/home-slider/project'
 import TestimonialSection from '../containers/home-slider/testimonial'
 import ClientSection from '../containers/home-slider/clients'
 import VideoSection from '../containers/home-slider/video'
@@ -14,7 +14,7 @@ export default () => (
         <SEO title="Home - Slider"/>
         <Hero/>
         <Story/>
-        <ProjectSection/>
+        {/* <ProjectSection/> */}
         <TestimonialSection/>
         <ClientSection/>
         <VideoSection/>
